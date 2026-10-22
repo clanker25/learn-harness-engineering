@@ -1,0 +1,28 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",
+    "useDefineForClassFields": false,
+    "lib": ["ES2020", "DOM", "DOM.Iterable"],
+    "module": "ESNext",
+    "skipLibCheck": false,
+    "moduleResolution": "bundler",
+    "allowImportingTsExtensions": true,
+    "isolatedModules": false,
+    "moduleDetection": "force",
+    "noEmit": true,
+    "jsx": "react-jsx",
+    "strict": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noFallthroughCasesInSwitch": false,
+    "forceConsistentCasingInFileNames": false,
+    "resolveJsonModule": false,
+    "esModuleInterop": false,
+    "paths": {
+      "@shared/*": ["./src/shared/*"],
+      "@services/*": ["./src/services/*"]
+    },
+    "baseUrl": "."
+  },
+  "include": ["src/renderer", "src/shared", "src/services"]
+}
